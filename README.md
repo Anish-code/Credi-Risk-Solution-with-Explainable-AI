@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project aims to develop a machine learning model to predict credit risk and enhance its interpretability using Explainable AI (XAI) methods. By leveraging techniques like SHAP (SHapley Additive exPlanations), the project provides insights into the model's decision-making process, ensuring transparency and trustworthiness in credit risk assessments.([arxiv.org][1])
+This project aims to develop a machine learning model to predict credit risk and enhance its interpretability using Explainable AI (XAI) methods. By leveraging techniques like SHAP (SHapley Additive exPlanations), the project provides insights into the model's decision-making process, ensuring transparency and trustworthiness in credit risk assessments.
 
 ## Repository Contents
 
@@ -27,7 +27,7 @@ The dataset comprises various features related to borrowers' financial and perso
 * **`delinq_2yrs`**: Number of delinquent accounts in the past 2 years.
 * **`revol_util`**: Revolving line utilization rate.
 * **`total_acc`**: Total number of credit lines.
-* **`credit_risk`**: Target variable indicating credit risk (e.g., 'good' or 'bad').([github.com][2], [arxiv.org][3])
+* **`credit_risk`**: Target variable indicating credit risk (e.g., 'good' or 'bad').
 
 ## Methodology
 
@@ -35,7 +35,7 @@ The dataset comprises various features related to borrowers' financial and perso
 
 * **Handling Missing Values**: Imputed or removed missing entries to ensure data quality.
 * **Encoding Categorical Variables**: Converted categorical features into numerical representations using techniques like one-hot encoding.
-* **Feature Scaling**: Applied scaling methods to normalize feature values, facilitating model convergence.([github.com][2])
+* **Feature Scaling**: Applied scaling methods to normalize feature values, facilitating model convergence.
 
 ### 2. Model Development
 
@@ -47,7 +47,7 @@ The dataset comprises various features related to borrowers' financial and perso
 
 * **SHAP Integration**: Implemented SHAP to interpret the model's predictions by calculating feature contributions.
 * **Visualization**: Generated plots like SHAP summary plots and dependence plots to visualize feature impacts.
-* **Insights**: Identified key features influencing credit risk predictions, enhancing model transparency.([originalstatic.aminer.cn][4], [github.com][2])
+* **Insights**: Identified key features influencing credit risk predictions, enhancing model transparency.
 
 ## Getting Started
 
@@ -64,7 +64,7 @@ Ensure you have the following installed:
   * scikit-learn
   * shap
   * matplotlib
-  * seaborn([belfercenter.org][5], [arxiv.org][6], [github.com][7])
+  * seaborn
 
 ### Installation
 
@@ -96,4 +96,4 @@ The machine learning model achieved satisfactory performance in predicting credi
 ## References
 
 * Molnar, Christoph. *Interpretable Machine Learning*. [https://christophm.github.io/interpretable-ml-book/](https://christophm.github.io/interpretable-ml-book/)
-* Lundberg, Scott M., and Su-In Lee. "A unified approach to interpreting model predictions." *Advances in Neural Information Processing Systems* 30 (2017).([originalstatic.aminer.cn][4])
+* Lundberg, Scott M., and Su-In Lee. "A unified approach to interpreting model predictions." *Advances in Neural Information Processing Systems* 30 (2017).
